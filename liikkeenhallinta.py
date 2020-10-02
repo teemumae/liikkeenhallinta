@@ -1,6 +1,18 @@
 
 import math
+hahmo_1 = {
+    "x": 0,
+    "y": 0,
+    "suunta": 0,
+    "nopeus": 0
+}
 
+hahmo_2 = {
+    "x": 50,
+    "y": 50,
+    "suunta": 0,
+    "nopeus": 0
+}
 
 def muunna_xy_koordinaateiksi(kulma,vektori):
  #asteet = int(kulma*180/math.pi)
