@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "liikkeenhallinta", "liikkeenhallinta.pyproj", "{213C4489-32E0-45DB-BEF2-7F3A463FD113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{213C4489-32E0-45DB-BEF2-7F3A463FD113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213C4489-32E0-45DB-BEF2-7F3A463FD113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C753A55C-83B8-4135-8A29-3A182558CA58}
+	EndGlobalSection
+EndGlobal
