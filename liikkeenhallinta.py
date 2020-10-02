@@ -46,3 +46,12 @@ def paivita_sijainti(hahmo):
 print("Pelaajan 1 vuoro")
 kysy_liike(hahmo_1)
 paivita_sijainti(hahmo_1)
+x1 = hahmo_1["x"]
+y1 = hahmo_1["y"]
+print("Uusi sijainti:({}, {})".format(x1,y1))
+print("Pelaajan 2 vuoro")
+kysy_liike(hahmo_2)
+paivita_sijainti(hahmo_2)
+x2 = hahmo_2["x"]
+y2 = hahmo_2["y"]
+print("Uusi sijainti:({}, {})".format(x2,y2))
