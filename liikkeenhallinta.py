@@ -23,8 +23,8 @@ def muunna_xy_koordinaateiksi(kulma,vektori):
  return x, y
 
 def kysy_liike(hahmo):
-    x0 = hahmo["x"]
-    y0 = hahmo["y"]
+    x = hahmo["x"]
+    y = hahmo["y"]
     print("Hahmo on sijainnissa ({}, {})", x, y)
     suunta = float(input("Anna liikkumissuunta asteina: "))
     nopeus = float(input("Anna liikenopeus: "))
@@ -35,3 +35,13 @@ def kysy_liike(hahmo):
 def paivita_sijainti(hahmo):
     nopeus = hahmo["nopeus"]
     suunta = hahmo["suunta"]
+    x0 = hahmo["x"]
+    y0 = hahmo["y"]
+    x, y = muunna_xy_koordinaateiksi(suunta, nopeus)
+    x2 = x0 + x
+    y2 = y0 + y
+    hahmo["x"] = x2
+    hahmo["y"] = y2
+
+print("Pelaajan 1 vuoro")
+
